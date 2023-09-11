@@ -1,45 +1,24 @@
 <!DOCTYPE html>
-<head> 
-    <title>Form</title>    
-</head>
-
-<body> 
-<form>
-    <h2>The First Try</h2>
-
-    <label for="name">First name:</label> <br>
-    <input class="input" type="text" name="mac" id="name"><br>
-    کلمه عبور:<br> <input  class="input" type="password" name="password"> <br>
-
-    سن:<br> <input class="input" type="number" name="age"><br>
-
-    تلفن:<br> <input class="input" type="tel"><br>
-    
-    آدرس:<br> <textarea class="input" name="address" ></textarea><br>
-
-    عکس:<br> <input class="input" type="file" >
-
-    
-
-<p> 
-    Just for exercise
-</p>
-</form>
-
-
-
 
 <head>
+  <link rel="stylesheet" href="style.css"> 
     <title>Form</title>
 </head>
 
+<body>
 
 <h2>Personal Data</h2>
-
 <p>This is my full Resume information.</p>
-<form action="/action_page.php">
+
+<div class="container">
+<form action="/backend.php" method="post"> 
   <fieldset>
+  
+  <img src="Pictures/SMW0D-PRINT23041608300.jpg" alt="My Image" width="100" height="100" class="ask"><br><br>
+
+
     <legend>Personality:</legend>
+
     <label for="fname">First name:</label><br>
     <input type="text" id="fname" name="fname" value="Shayan"><br><br>
     <label for="lname">Last name:</label><br>
@@ -50,16 +29,22 @@
     <input type="email" id="email" name="email" value="examplefile@gmail.com"><br><br>
     <label for="phone">Enter a phone number:</label><br>
     <input type="tel" id="phone" name="phone" value="225 654 9878"><br><br>
+    
+    <label for="address">Address:</label><br>
+    <input type="text" id="Address" name="Address"><br><br>
+    
     <label for="username">Username:</label><br>
-    <input type="text" id="username" name="username"><br>
+    <input type="text" id="username" name="username"><br><br>
     <label for="pwd">Password:</label><br>
     <input type="password" id="pwd" name="pwd"><br><br>
+
+    Photo: <br> <input class="input" type="file"><br><br>
 
 
     <input type="submit" value="Submit">
   </fieldset>
 </form>
-
+</div>
 
 
 

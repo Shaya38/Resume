@@ -5,11 +5,11 @@ a {
 
 
 .input{
-    background-color: gray;
+    
     border-radius: 10px;
     border: 2 solid rgb(184, 21, 21);
-    margin: 5px 5px;
-    background-color: blue;
+    margin: 5px 5px ;
+    
 }
 
 
@@ -27,9 +27,6 @@ a {
       background-color: aqua;
     }
 
-  
-    
-   
 
     .mydiv { 
       border:  solid rgb(220, 30);
@@ -39,3 +36,29 @@ a {
       border-radius: 10px;
       display:block;
     }
+
+
+    .ask {
+      border-radius: 100px;
+      border-bottom:4px ;
+      background: #ffffff;
+      padding: 1px; 
+      width: 150px;
+      height: 150px;  
+      margin: 0 auto;
+      display: flex;
+    }
+
+
+.container {
+  width: 100%;
+}
+
+form {
+  width: 100%;
+}
+
+form input {
+  width: 50%;
+}
+
