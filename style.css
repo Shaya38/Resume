@@ -1,44 +1,4 @@
-a {
-    display:block;
-    margin: 8px 8px;
-}
-
-
-.input{
-    
-    border-radius: 10px;
-    border: 2 solid rgb(184, 21, 21);
-    margin: 5px 5px ;
-    
-}
-
-
-    td {
-      border: 1px solid #333;
-    }
-    
-    thead,
-    tfoot {
-      background-color: #333;
-      color: #fff;
-    }
-    
-    .my_new_class{
-      background-color: aqua;
-    }
-
-
-    .mydiv { 
-      border:  solid rgb(220, 30);
-      background-color: green;
-      text-align: center;
-      margin: 8px 8px;
-      border-radius: 10px;
-      display:block;
-    }
-
-
-    .ask {
+.ask {
       border-radius: 100px;
       border-bottom:4px ;
       background: #ffffff;
@@ -61,4 +21,36 @@ form {
 form input {
   width: 50%;
 }
+
+
+
+
+.input {
+border-radius: 8px;
+}
+
+th {
+  width: 50%;
+}
+
+td {
+  width: 50%;
+}
+
+body {
+  background-image: url("Pictures/C.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input {
+  padding:2px ;
+}
+
+fieldset {
+padding: 10px;
+}
+
+
+
 
