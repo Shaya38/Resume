@@ -10,11 +10,16 @@
 <h2>Personal Data</h2>
 <p>This is my full Resume information.</p>
 
+
+<a href="Pictures">Set Settings & Background</a><br>
+
+
+
 <div class="container">
 <form action="/backend.php" method="post"> 
   <fieldset>
 
-    <legend>Data:</legend>
+    <legend>Personal Data:</legend>
 
     <label for="fname">First name:</label><br>
     <input class="input" type="text" id="fname" name="fname" value=""><br><br>
@@ -23,32 +28,71 @@
     <label for="birthday">Birthday:</label><br>
     <input class="input" type="date" id="birthday" name="birthday"><br><br>
     
-    city: <br> <input class="input" type="text"><br><br>
-    Province: <br> <input class="input" type="text"><br><br>
+    National Code: <br> <input class="input" type="number"><br><br>
+    number: <br> <input class="input" type="number"><br><br>
 
-    <label for="email">Enter your email:</label><br>
+    <label for="email">E-mail:</label><br>
     <input class="input" type="email" id="email" name="email" value="examplefile@gmail.com"><br><br>
-    <label for="phone">Enter a phone number:</label><br>
-    <input class="input" type="tel" id="phone" name="phone" value="225 654 9878"><br><br>
-    
-    <label for="address">Address:</label><br>
-    <input class="input" type="text" id="Address" name="Address"><br><br>
-    
-    <label for="username">Username:</label><br>
-    <input class="input" type="text" id="username" name="username"><br><br>
-    <label for="pwd">Password:</label><br>
-    <input class="input" type="password" id="pwd" name="pwd"><br><br>
 
     Photo: <br> <input class="input" type="file"><br><br>
 
+  </fieldset><br><br><br><br><br>
+</form>
+
+
+
+<form>
+<fieldset>
+  <legend>Education:</legend>
+
+  Grade: <br> <input class="input" type="text"><br><br>
+  Education Evidence: <br> <input class="input" type="text"><br><br>
+  Education Level: <br> <input class="input" type="text"><br><br>
+  Education Place: <br> <input class="input" type="text"><br><br>
+
+</fieldset><br><br><br><br><br>
+</form>
+
+
+
+<form>
+<fieldset>
+  <legend>City:</legend>
+
+  city: <br> <input class="input" type="text"><br><br>
+  Province: <br> <input class="input" type="text"><br><br>
+  <label for="phone">Phone number:</label><br>
+  <input class="input" type="tel" id="phone" name="phone" value="225 654 9878"><br><br>
+  <label for="address">Address:</label><br>
+  <input class="input" type="text" id="Address" name="Address"><br><br>
+
+</fieldset><br><br><br><br><br>
+</form>
+
+
+
+<form>
+<fieldset>
+  <legend>Security:</legend>
+
+  <label for="username">Username:</label><br>
+  <input class="input" type="text" id="username" name="username"><br><br>
+  <label for="pwd">Password:</label><br>
+  <input class="input" type="password" id="pwd" name="pwd"><br><br>
+
+</fieldset><br><br><br><br><br>
+</form>
+
+
+
+<form>
+  <fieldset>
     <input class="input" type="submit" value="Submit">
-
-
-  
-
-
   </fieldset>
 </form>
+
+
+
 </div>
 
 
