@@ -7,3 +7,9 @@ images.forEach((image, index, list) => {
         document.body.style.backgroundImage = "url(" + image.src + ")";
     };
 });
+
+
+//TODO: DEFINE PROVINCES DROPDOWN AND FILL WITH JAVASCRIPT
+function fillProvinces() {
+    
+}

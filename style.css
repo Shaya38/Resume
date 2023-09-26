@@ -94,3 +94,11 @@ h1 {
   color: aqua;
 
 }
+
+.error {
+  color: red;
+  padding: 0.5rem;
+  border: 0.1rem solid red;
+  display: block;
+  margin: 0 auto;
+}
